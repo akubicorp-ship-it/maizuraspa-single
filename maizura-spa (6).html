@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<script>document.documentElement.classList.add('js')</script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Maizura Spa | Pijat &amp; Terapi Relaksasi di Kota Anda</title>
+<meta name="description" content="Maizura Spa: pijat tradisional, refleksi, aromaterapi, dan terapi relaksasi oleh terapis berpengalaman. Booking mudah lewat WhatsApp.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;500;700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Love+Light&display=swap" rel="stylesheet">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"HealthAndBeautyBusiness","name":"Maizura Spa","telephone":"+6281234567890","address":{"@type":"PostalAddress","streetAddress":"Jl. Melati No. 12","addressLocality":"Kota Anda","addressCountry":"ID"},"openingHours":"Mo-Su 09:00-21:00"}</script>
+<style>
+:root{--bg:#ffffff;--bg2:#eef8f1;--card:#ffffff;--ink:#2d2d2d;--mute:#6a6f6c;--g:#4a9262;--g2:#37794d;--pe:#4a9262;--line:#dcebe0;--wa:#1fa855;--mint:#d8f0e0}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#121a15;--bg2:#18231c;--card:#1d2a22;--ink:#eaf2ec;--mute:#a4b3a9;--g:#7fc79a;--g2:#9fdab4;--pe:#8fd0a5;--line:#2c3d32;--mint:#1f3a2a}}
+:root[data-theme="dark"]{--bg:#121a15;--bg2:#18231c;--card:#1d2a22;--ink:#eaf2ec;--mute:#a4b3a9;--g:#7fc79a;--g2:#9fdab4;--pe:#8fd0a5;--line:#2c3d32;--mint:#1f3a2a}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth;scroll-padding-top:80px}
+body{background:var(--bg);color:var(--ink);font:400 16px/1.7 Karla,system-ui,sans-serif}
+h1,h2,h3{font-family:"Libre Baskerville",Georgia,serif;font-weight:400;line-height:1.25;color:var(--ink)}
+h1{font-size:clamp(2.2rem,6vw,3.9rem)}h2{font-size:clamp(1.7rem,4vw,2.5rem)}h3{font-size:1.2rem}
+.w{max-width:1120px;margin:auto;padding:0 20px}
+section{padding:84px 0}.alt{background:var(--bg2)}
+.cat{font-family:'Love Light','Libre Baskerville',cursive;font-size:1.9rem;letter-spacing:.06em;color:var(--g);margin-bottom:2px;line-height:1.2}
+.lead{color:var(--mute);margin-top:12px;max-width:560px}
+.btn{display:inline-block;padding:13px 30px;border-radius:8px;background:var(--g);color:#fff;text-decoration:none;font-weight:700;border:0;cursor:pointer;font:700 1rem Karla,sans-serif;transition:.25s}
+:root[data-theme="dark"] .btn:not(.wa){color:#10201a}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]) .btn:not(.wa){color:#10201a}}
+.btn:hover{transform:translateY(-2px);background:var(--g2)}
+.btn.wa{background:var(--wa);color:#fff}.btn.wa:hover{background:#188f48}
+.btn.out{background:transparent;border:1.5px solid var(--g);color:var(--g)}
+header{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 92%,transparent);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+nav{display:flex;align-items:center;justify-content:space-between;height:70px}
+.logo{font-family:"Libre Baskerville",Georgia,serif;font-size:1.45rem;color:var(--g);text-decoration:none;font-weight:700}
+.logo i{color:var(--ink);font-style:normal;font-weight:400}
+nav ul{display:flex;gap:26px;list-style:none;padding:0}nav a{color:var(--ink);text-decoration:none;font-family:'Libre Baskerville',Georgia,serif;font-size:.98rem}nav a:hover{color:var(--pe)}
+@media(max-width:780px){nav ul{display:none}}
+.hero{padding:70px 0 90px;background:radial-gradient(ellipse at 88% 8%,var(--mint),transparent 58%),radial-gradient(ellipse at 0% 100%,color-mix(in srgb,var(--mint) 55%,transparent),transparent 50%),var(--bg)}
+.split{display:grid;grid-template-columns:1.05fr .95fr;gap:50px;align-items:center}
+@media(max-width:820px){.split{grid-template-columns:1fr}}
+.hero p{color:var(--mute);margin:18px 0 28px;max-width:480px;font-size:1.08rem}
+.row{display:flex;gap:12px;flex-wrap:wrap;align-items:center}
+.call{color:var(--mute);font-size:.95rem}.call b{color:var(--g)}
+.pic{position:relative}.pic::before{content:"";position:absolute;inset:8% 4% -4% 10%;border-radius:50% 50% 24px 24px;background:var(--mint)}
+.pic img{position:relative;width:100%;height:auto;display:block;border-radius:24px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:24px;margin-top:38px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:28px;display:flex;flex-direction:column;gap:10px}
+.card img.ic{width:54px;height:54px}
+.card p{color:var(--mute);font-size:.95rem}
+.sv img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:14px;background:var(--bg2)}
+.sv{padding:16px 16px 22px}.sv h3,.sv .pr,.sv .btn{margin-left:8px;margin-right:8px}
+.pr{color:var(--pe);font-weight:700;font-size:1.15rem}.pr small{color:var(--mute);font-weight:400;font-size:.8rem}
+.sv .btn{padding:10px 18px;font-size:.9rem;text-align:center;margin-top:6px}
+.feats{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:26px}
+@media(max-width:520px){.feats{grid-template-columns:1fr}}
+.feats div{border-left:3px solid var(--pe);padding-left:14px}.feats b{display:block}.feats span{color:var(--mute);font-size:.92rem}
+.price{display:grid;grid-template-columns:1fr 1fr;gap:28px;margin-top:38px}
+@media(max-width:760px){.price{grid-template-columns:1fr}}
+.pbox{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:26px}
+.pbox h3{margin-bottom:12px;color:var(--g)}
+.pbox a{display:flex;align-items:baseline;gap:8px;padding:11px 0;border-bottom:1px dashed var(--line);text-decoration:none;color:var(--ink);cursor:pointer}
+.pbox a:last-child{border:0}.pbox a:hover b{color:var(--pe)}
+.pbox .sp{flex:1;border-bottom:1px dotted var(--line);transform:translateY(-4px)}.pbox em{font-style:normal;font-weight:700;color:var(--pe)}
+.tm{display:grid;grid-template-columns:.7fr 1.3fr;gap:46px;align-items:center}
+@media(max-width:760px){.tm{grid-template-columns:1fr}}
+.tm img{width:100%;max-width:360px;margin:auto;display:block;border-radius:24px}
+#q{font-family:"Libre Baskerville",Georgia,serif;font-size:1.2rem;line-height:1.7;margin-top:22px;min-height:7.5em}
+#qn{color:var(--pe);font-weight:700;margin-top:8px}
+.bl img{width:100%;aspect-ratio:16/10;object-fit:cover;border-radius:12px;background:var(--bg2)}
+.bl{padding:14px 14px 22px}.bl small{color:var(--pe);font-weight:700;margin:8px 4px 0}.bl h3{margin:0 4px}
+form{display:grid;gap:14px;background:var(--card);border:1px solid var(--line);border-radius:18px;padding:28px}
+label{font-size:.85rem;color:var(--mute)}
+input,select{width:100%;padding:12px 14px;border-radius:10px;border:1px solid var(--line);background:var(--bg);color:var(--ink);font:inherit}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:14px}@media(max-width:500px){.two{grid-template-columns:1fr}}
+.info p{margin-top:8px;color:var(--mute)}.info b{color:var(--ink)}
+footer{background:var(--g2);color:#fff;padding:40px 0 96px;text-align:center}
+:root[data-theme="dark"] footer,:root:not([data-theme="light"]) footer{--x:1}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]) footer{background:#0f1814;color:#f0e9dc}}
+.fab{position:fixed;right:18px;bottom:18px;z-index:30;background:var(--wa);color:#fff;border-radius:999px;padding:14px 22px;text-decoration:none;font-weight:700;box-shadow:0 8px 24px rgba(0,0,0,.28)}
+
+/* ===== animasi kalem ===== */
+:root{--ease:cubic-bezier(.25,.1,.25,1)}
+.js .rv{opacity:0;transform:translateY(16px);filter:blur(6px);transition:opacity 1.5s var(--ease),transform 1.5s var(--ease),filter 1.5s var(--ease);transition-delay:var(--d,0s)}
+.js .rv.in{opacity:1;transform:none;filter:none}
+@keyframes soft{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+@keyframes drift{0%,100%{transform:translate(0,0) scale(1)}50%{transform:translate(14px,-12px) scale(1.05)}}
+@keyframes breathe{0%,100%{transform:scale(1);opacity:.9}50%{transform:scale(1.04);opacity:1}}
+@keyframes glow{0%,100%{box-shadow:0 8px 24px rgba(0,0,0,.2),0 0 0 0 rgba(31,168,85,.25)}50%{box-shadow:0 8px 24px rgba(0,0,0,.2),0 0 0 10px rgba(31,168,85,0)}}
+.hero{position:relative;overflow:hidden}
+.hero::before,.hero::after{content:"";position:absolute;border-radius:50%;background:var(--mint);opacity:.55;z-index:0;animation:drift 30s ease-in-out infinite}
+.hero::before{width:300px;height:300px;left:-90px;top:50px}
+.hero::after{width:190px;height:190px;right:38%;bottom:-60px;animation-duration:38s;animation-delay:-12s}
+.hero .w{position:relative;z-index:1}
+.hero .cat{animation:soft 1.6s .2s both var(--ease)}.hero h1{animation:soft 1.8s .5s both var(--ease)}.hero p{animation:soft 1.8s .9s both var(--ease)}.hero .row{animation:soft 1.8s 1.2s both var(--ease)}
+.hero .pic{animation:soft 2s .6s both var(--ease)}
+.pic::before{animation:breathe 11s ease-in-out infinite;transform-origin:center}
+header{transition:box-shadow .6s,background .6s}header.sc{box-shadow:0 4px 22px rgba(40,90,60,.08)}
+nav ul a{position:relative;transition:color .5s}nav ul a::after{content:"";position:absolute;left:0;bottom:-4px;height:1.5px;width:100%;background:var(--g);opacity:0;transition:opacity .5s}
+nav ul a:hover::after{opacity:1}
+.btn{transition:background .5s var(--ease),transform .5s var(--ease),box-shadow .5s}
+.btn:hover{transform:translateY(-1px);box-shadow:0 8px 20px -10px rgba(40,100,65,.45)}
+.card{transition:transform .7s var(--ease),box-shadow .7s var(--ease),border-color .7s}
+.card:hover{transform:translateY(-4px);box-shadow:0 14px 34px -18px rgba(40,100,65,.28);border-color:color-mix(in srgb,var(--g) 55%,var(--line))}
+.card img.ic{transition:transform .9s var(--ease)}.card:hover img.ic{transform:scale(1.06)}
+.sv,.bl{overflow:hidden}.sv img,.bl img{display:block;transition:transform 1.6s var(--ease)}.sv:hover img,.bl:hover img{transform:scale(1.035)}
+.feats div{transition:border-color .6s}.feats div:hover{border-color:var(--g2)}
+.pbox a{transition:color .5s}
+.tm img{transition:transform 1.2s var(--ease)}.tm img:hover{transform:scale(1.015)}
+#q,#qn{transition:opacity .9s var(--ease),transform .9s var(--ease)}#q.out,#qn.out{opacity:0;transform:translateY(8px)}
+.fab{animation:glow 5s ease-in-out infinite;transition:transform .5s var(--ease)}.fab:hover{transform:scale(1.03)}
+#bar{position:fixed;top:0;left:0;height:2px;width:0;background:var(--g);opacity:.6;z-index:50;transition:width .3s}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}.js .rv{opacity:1;transform:none;filter:none}}
+
+/* ===== menu mobile ===== */
+.burger{display:none;width:44px;height:44px;margin-left:8px;border:1px solid var(--line);border-radius:10px;background:var(--card);cursor:pointer;flex-direction:column;align-items:center;justify-content:center;gap:5px;padding:0}
+.burger span{display:block;width:20px;height:2px;background:var(--ink);border-radius:2px;transition:transform .35s,opacity .3s}
+header.open .burger span:nth-child(1){transform:translateY(7px) rotate(45deg)}
+header.open .burger span:nth-child(2){opacity:0}
+header.open .burger span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
+@media(max-width:780px){
+ .burger{display:flex}
+ nav>.btn{margin-left:auto}
+ header.open nav ul{display:flex;flex-direction:column;position:absolute;top:100%;left:0;right:0;background:var(--bg);padding:10px 20px 22px;gap:0;border-bottom:1px solid var(--line);box-shadow:0 18px 30px -20px rgba(0,0,0,.25)}
+ header.open nav ul a{display:block;padding:14px 0;border-bottom:1px solid var(--line)}
+ section{padding:60px 0}
+ .hero{padding:44px 0 64px}
+ .btn{padding:13px 24px}
+}
+</style>
+</head>
+<body>
+<div id="bar"></div>
+<header><div class="w"><nav>
+<a class="logo" href="#beranda">Maizura <i>Spa</i></a>
+<ul><li><a href="#beranda">Beranda</a></li><li><a href="#tentang">Tentang</a></li><li><a href="#layanan">Layanan</a></li><li><a href="#harga">Harga</a></li><li><a href="#kontak">Kontak</a></li></ul>
+<a class="btn wa" style="padding:9px 20px;font-size:.9rem" href="#kontak">Booking</a>
+<button class="burger" aria-label="Buka menu" aria-expanded="false"><span></span><span></span><span></span></button>
+</nav></div></header>
+<main>
+<section class="hero" id="beranda"><div class="w split">
+<div><div class="cat">Pijat &amp; Terapi</div>
+<h1>Pengalaman Pijat yang Menghilangkan Stres</h1>
+<p>Rasakan ketenangan lewat pijat tradisional, refleksi, dan aromaterapi dari terapis berpengalaman Maizura Spa.</p>
+<div class="row"><a class="btn wa" data-wa="Halo Maizura Spa, saya mau booking.">Booking Sekarang</a><span class="call">Atau hubungi: <b>0812-3456-7890</b></span></div></div>
+<div class="pic"><img src="https://cdn.prod.website-files.com/62eb83fe467fa574c8f5d86b/62f0ad96295fa16c5dd31f54_feature.png" alt="Perawatan pijat relaksasi di Maizura Spa"></div>
+</div></section>
+
+<section id="tentang"><div class="w split">
+<div class="pic"><img src="https://cdn.prod.website-files.com/62eb83fe467fa574c8f5d86b/62ef44e6664d6514f6561bdf_about-thumb-image.png" alt="Suasana ruang spa Maizura Spa" loading="lazy"></div>
+<div><div class="cat">Selamat datang</div>
+<h2>Alami &amp; Menenangkan</h2>
+<p class="lead">Kami hadir untuk Anda yang butuh jeda dari rutinitas. Ruangan hangat, aroma menenangkan, dan terapis terlatih membuat setiap kunjungan terasa seperti pulang ke rumah.</p>
+<div class="feats"><div><b>Bahan alami</b><span>Minyak dan ramuan pilihan</span></div><div><b>Aman &amp; higienis</b><span>Alat dan ruangan selalu bersih</span></div><div><b>Terapis terlatih</b><span>Ramah dan berpengalaman</span></div><div><b>Booking mudah</b><span>Cukup lewat WhatsApp</span></div></div>
+</div></div></section>
+
+<section class="alt"><div class="w">
+<div class="cat">Terapi unggulan</div><h2>Pilih terapi sesuai kebutuhan</h2>
+<div class="grid">
+<div class="card"><img class="ic" src="https://cdn.prod.website-files.com/62ef86b8d05b79a92706f8b6/62ef93947d098c6cab6c8c5c_Organic%20Therapy.svg" alt="Ikon terapi organik"><h3>Terapi Herbal</h3><p>Ramuan alami untuk melepas pegal dan menyegarkan tubuh.</p></div>
+<div class="card"><img class="ic" src="https://cdn.prod.website-files.com/62ef86b8d05b79a92706f8b6/62ef947a7d098c94c46c939c_Massage%20Therapy.svg" alt="Ikon pijat"><h3>Pijat Tradisional</h3><p>Pijatan terarah untuk melancarkan peredaran darah dan mengurangi lelah.</p></div>
+<div class="card"><img class="ic" src="https://cdn.prod.website-files.com/62ef86b8d05b79a92706f8b6/62ef945506d848af65c357e1_Oil%20Therapy.svg" alt="Ikon terapi minyak"><h3>Terapi Aromaterapi</h3><p>Minyak esensial yang menenangkan pikiran dan membantu tidur nyenyak.</p></div>
+</div></div></section>
+
+<section id="layanan"><div class="w">
+<div class="cat">Layanan kami</div><h2>Layanan Spa Favorit</h2>
+<p class="lead">Harga di bawah hanya contoh untuk demo. Klik tombol, pesan WhatsApp terisi otomatis.</p>
+<div class="grid">
+<div class="card sv"><img src="https://cdn.prod.website-files.com/62ef86b8d05b79a92706f8b6/62f0e1aeeafac5eaa641e31f_hot-stone-spa.png" alt="Pijat hot stone" loading="lazy"><h3>Pijat Hot Stone</h3><div class="pr">Rp 200.000 <small>/ 90 menit</small></div><a class="btn" data-wa="Halo Maizura Spa, saya mau booking Pijat Hot Stone (90 menit).">Booking layanan ini</a></div>
+<div class="card sv"><img src="https://cdn.prod.website-files.com/62ef86b8d05b79a92706f8b6/62f0e256295fa10e03d5bf6c_face-scrab.png" alt="Totok dan scrub wajah" loading="lazy"><h3>Totok &amp; Scrub Wajah</h3><div class="pr">Rp 90.000 <small>/ 45 menit</small></div><a class="btn" data-wa="Halo Maizura Spa, saya mau booking Totok &amp; Scrub Wajah (45 menit).">Booking layanan ini</a></div>
+<div class="card sv"><img src="https://cdn.prod.website-files.com/62ef86b8d05b79a92706f8b6/62f0e237af610515d4980f20_oil-message.png" alt="Pijat aromaterapi" loading="lazy"><h3>Pijat Aromaterapi</h3><div class="pr">Rp 180.000 <small>/ 90 menit</small></div><a class="btn" data-wa="Halo Maizura Spa, saya mau booking Pijat Aromaterapi (90 menit).">Booking layanan ini</a></div>
+</div></div></section>
+
+<section class="alt" id="harga"><div class="w">
+<div class="cat">Daftar harga</div><h2>Harga Spa &amp; Terapi</h2>
+<p class="lead">Harga terjangkau untuk semua kalangan. Klik layanan untuk booking.</p>
+<div class="price"><div class="pbox"><h3>Layanan Spa</h3><div id="p1"></div></div><div class="pbox"><h3>Terapi &amp; Paket</h3><div id="p2"></div></div></div>
+</div></section>
+
+<section><div class="w tm">
+<img src="https://cdn.prod.website-files.com/62eb83fe467fa574c8f5d86b/62f2239ad6a44363c9b11882_testimonial-image.png" alt="Pelanggan Maizura Spa" loading="lazy">
+<div><div class="cat">Testimoni</div><h2>Kata Pelanggan Kami</h2>
+<div id="q"></div><div id="qn"></div></div>
+</div></section>
+
+<section class="alt"><div class="w">
+<div class="cat">Tips sehat</div><h2>Artikel Terbaru</h2>
+<div class="grid">
+<div class="card bl"><img src="https://cdn.prod.website-files.com/62ef86b8d05b79a92706f8b6/62f32d323ebbed513449c202_blog-feature-image.jpg" alt="Manfaat pijat untuk tubuh" loading="lazy"><small>Tips</small><h3>Manfaat Pijat Rutin untuk Tubuh</h3></div>
+<div class="card bl"><img src="https://cdn.prod.website-files.com/62ef86b8d05b79a92706f8b6/62f333a6e38c6d72851c3154_blog-popular-image.jpg" alt="Manfaat rendaman mineral" loading="lazy"><small>Tips</small><h3>Rendaman Hangat untuk Melepas Lelah</h3></div>
+<div class="card bl"><img src="https://cdn.prod.website-files.com/62ef86b8d05b79a92706f8b6/62f337be0ae83ffe1f62b294_blog-popular-image-2.jpg" alt="Tips terapi herbal" loading="lazy"><small>Tips</small><h3>Terapi Herbal: Manfaat untuk Semua</h3></div>
+</div></div></section>
+
+<section id="kontak"><div class="w split">
+<div class="info"><div class="cat">Kontak &amp; lokasi</div><h2>Reservasi Sekarang</h2>
+<p><b>Alamat:</b> Jl. Melati No. 12, Kota Anda (contoh)</p>
+<p><b>Jam buka:</b> Setiap hari, 09.00 – 21.00</p>
+<p><b>WhatsApp:</b> 0812-3456-7890 (nomor contoh)</p>
+<p>Pembayaran dikonfirmasi manual lewat WhatsApp setelah booking.</p></div>
+<form id="bk">
+<div><label for="n">Nama</label><input id="n" required placeholder="Nama Anda"></div>
+<div><label for="s">Layanan</label><select id="s"></select></div>
+<div class="two"><div><label for="d">Tanggal</label><input id="d" type="date"></div><div><label for="t">Jam</label><input id="t" type="time"></div></div>
+<button class="btn wa" type="submit">Kirim booking ke WhatsApp</button>
+</form>
+</div></section>
+</main>
+<footer><div class="w"><div class="logo" style="color:inherit">Maizura Spa</div><p style="opacity:.85;margin-top:6px">Pijat &amp; terapi relaksasi. Demo desain oleh Akubi Web Design.</p><p style="opacity:.7;font-size:.85rem;margin-top:12px">© 2026 Maizura Spa. Semua hak dilindungi.</p></div></footer>
+<a class="fab" data-wa="Halo Maizura Spa, saya mau tanya layanan.">Chat WhatsApp</a>
+<script>
+var NO="6281234567890";
+var P1=[["Pijat Tradisional","60 menit","120.000"],["Refleksi Kaki","60 menit","100.000"],["Pijat Aromaterapi","90 menit","180.000"],["Pijat Hot Stone","90 menit","200.000"]];
+var P2=[["Prenatal / Postnatal","60 menit","150.000"],["Totok & Scrub Wajah","45 menit","90.000"],["Scrub Badan","60 menit","170.000"],["Paket Couple","90 menit","320.000"]];
+function wa(m){return "https://wa.me/"+NO+"?text="+encodeURIComponent(m)}
+var sel=document.getElementById("s");
+function fill(id,L){var h="";L.forEach(function(x){h+='<a data-wa="Halo Maizura Spa, saya mau booking '+x[0]+' ('+x[1]+').">'+'<b style="font-weight:500">'+x[0]+'</b><span class="sp"></span><em>Rp '+x[2]+'</em></a>';var o=document.createElement("option");o.textContent=x[0]+" ("+x[1]+")";sel.appendChild(o)});document.getElementById(id).innerHTML=h}
+fill("p1",P1);fill("p2",P2);
+document.addEventListener("click",function(e){var a=e.target.closest("[data-wa]");if(a){e.preventDefault();window.open(wa(a.getAttribute("data-wa")),"_blank")}});
+document.getElementById("bk").addEventListener("submit",function(e){e.preventDefault();window.open(wa("Halo Maizura Spa, saya mau booking.\nNama: "+n.value+"\nLayanan: "+s.value+"\nTanggal: "+(d.value||"-")+"\nJam: "+(t.value||"-")),"_blank")});
+var T=[["Pijatnya pas, ruangannya wangi dan tenang. Badan langsung terasa ringan.","Rina, pelanggan tetap"],["Booking lewat WhatsApp gampang dan responsnya cepat. Terapisnya sopan.","Dewi, pelanggan baru"],["Paket prenatal-nya nyaman sekali, sangat membantu selama hamil.","Sari, ibu hamil"]],i=0;
+var Q=document.getElementById("q"),QN=document.getElementById("qn");function show(first){function put(){Q.textContent="“"+T[i][0]+"”";QN.textContent=T[i][1];i=(i+1)%T.length;Q.classList.remove("out");QN.classList.remove("out")}if(first){put();return}Q.classList.add("out");QN.classList.add("out");setTimeout(put,900)}
+show(true);setInterval(show,7500);
+
+/* animasi scroll & interaksi */
+(function(){
+ var sel=".sec-h,section:not(.hero) .cat,section:not(.hero) h2,section:not(.hero) .lead,.card,.pbox,.feats div,.tm img,.info p,form,.pic";
+ var els=document.querySelectorAll(sel),io=new IntersectionObserver(function(es){es.forEach(function(x){if(x.isIntersecting){x.target.classList.add("in");io.unobserve(x.target)}})},{threshold:.12,rootMargin:"0px 0px -40px 0px"});
+ els.forEach(function(el){
+  if(el.closest(".hero"))return;
+  el.classList.add("rv");
+  var p=el.parentElement,sib=[].filter.call(p.children,function(c){return c.classList.contains("card")||c.classList.contains("pbox")||p.classList.contains("feats")});
+  var i=sib.indexOf(el);if(i>-1)el.style.setProperty("--d",(i*0.12)+"s");
+  if(el.classList.contains("pic"))el.classList.add("zl");
+  if(el.closest(".tm")&&el.tagName==="IMG")el.classList.add("zl");
+  io.observe(el);
+ });
+ var hd=document.querySelector("header"),bar=document.getElementById("bar");
+ function sc(){var y=window.scrollY,h=document.documentElement.scrollHeight-innerHeight;hd.classList.toggle("sc",y>10);bar.style.width=(h>0?y/h*100:0)+"%"}
+ addEventListener("scroll",sc,{passive:true});sc();
+})();
+
+(function(){var h=document.querySelector("header"),b=h.querySelector(".burger");
+ b.addEventListener("click",function(){var o=h.classList.toggle("open");b.setAttribute("aria-expanded",o)});
+ h.querySelectorAll("nav ul a").forEach(function(a){a.addEventListener("click",function(){h.classList.remove("open");b.setAttribute("aria-expanded","false")})});
+})();
+</script>
+</body>
+</html>
