@@ -1,0 +1,1 @@
+# maizuraspa-single
